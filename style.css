@@ -21,7 +21,7 @@ body {
 
 .container {
   margin: 0 auto;
-  padding-bottom: 1.5em;
+  padding-block: 2rem;
   width: 575px;
   
   display: flex;
@@ -39,6 +39,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-block: 2rem;
 }
 
 .title {
@@ -49,7 +50,6 @@ body {
 
 .score {
   padding-top: .1em;
-  
   
   background: var(--black);
   color: var(--red);
@@ -62,7 +62,7 @@ body {
 
 .btn {
   margin-top: 1em;
-  width: 45px;
+  min-width: 45px;
   height: 45px;
 
   background: unset;
@@ -75,11 +75,6 @@ body {
   font-size: 18px;
 }
 
-#clock {
-  padding:  .3em .5em .2em;
-
-  background: var(--black);
-  color: var(--red);
-
-  font-family: score;
+.highlighter {
+  box-shadow: 0 0 10px yellow;
 }

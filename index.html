@@ -9,23 +9,23 @@
 </head>
 <body>
   <div class="container">
-    <p id="clock"></p>
     <div class="block">
       <div class="home">
         <h3 class="title home">Home</h3>
-        <div id="homeScore" class="score">0</div>
-        <button class="btn H1">+1</button>
-        <button class="btn H2">+2</button>
-        <button class="btn H3">+3</button>
+        <div id="home-display" class="score">0</div>
+        <button class="btn" data-home-pts="1">+1</button>
+        <button class="btn" data-home-pts="2">+2</button>
+        <button class="btn" data-home-pts="3">+3</button>
       </div>
       <div class="guest">
         <h3 class="title guest">Guest</h3>
-        <div id="guestScore" class="score">0</div>
-        <button class="btn G1">+1</button>
-        <button class="btn G2">+2</button>
-        <button class="btn G3">+3</button>
+        <div id="guest-display" class="score">0</div>
+        <button class="btn" data-guest-pts="1">+1</button>
+        <button class="btn" data-guest-pts="2">+2</button>
+        <button class="btn" data-guest-pts="3">+3</button>
       </div>
     </div>
+    <button class="btn new-game" id="new-game">New Game</button>
   </div>
   <script src="main.js"></script>
 </body>
