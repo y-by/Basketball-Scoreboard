@@ -10,7 +10,6 @@ container.addEventListener('click', function(e) {
   const target = e.target
   const homePts = target.dataset.homePts
   const guestPts = target.dataset.guestPts
-  console.log(target)
 
   if(homePts) {
     homeScore += Number(homePts)
